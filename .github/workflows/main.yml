@@ -14,7 +14,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
-
+      
+      - name: Sync with remote
+        run: |
+          git fetch origin
+          git reset --hard origin/main
+      
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
@@ -35,8 +40,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "96953964+binnichtaktiv@users.noreply.github.com"
-          git fetch origin
-          git reset --hard origin/main
           git add profile/*.svg
           git commit -m "Update README cards" || exit 0
           git push
