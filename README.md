@@ -1,3 +1,2 @@
 <img src="profile/stats.svg" width="350" height="350" />
-<img src="profile/top-langs.svg" width="350" height="350" />
-
+<a href="https://github.com/binnichtaktiv" target="_blank" rel="noopener noreferrer"><img src="https://helio-github-stats.vercel.app/api/top-langs?username=binnichtaktiv&layout=compact&langs_count=10&bg_color=141321&text_color=FFFFFF&title_color=FA3C8C&stats_format=percentages&hide_border=false&border_radius=4.5&card_width=466&locale=pt-br&custom_title=Most+used+languages" alt="Most used languages" width="466" height="auto" loading="lazy" /></a>
